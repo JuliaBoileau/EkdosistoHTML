@@ -1,0 +1,118 @@
+\documentclass[10pt]{book}
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage[french]{babel}
+\usepackage{csquotes}
+\setmainfont{Old Standard}[RawFeature=onum]
+\newfontfamily\hebfont{NewComputerModern10}[Script=Hebrew]
+\usepackage[teiexport=tidy]{ekdosis}
+\SetApparatus{
+  delim={\unskip~‖ },
+  direction=RL,
+  sep={[ }
+}
+\SetHooks{
+  lemmastyle=\hebfont,
+  readingstyle=\hebfont
+}
+\def\LR#1{\bgroup\textdir TLT#1\egroup}
+\DeclareWitness{B}{B}{Bodleian Pococke 296}
+\DeclareWitness{V}{V}{Manuscrit Vatican 335}
+\DeclareWitness{M}{M}{Moscou Guenzburg 341}[locus={61r-}]
+\DeclareWitness{F}{F}{BNF Paris Ms. Héb. 982}
+\DeclareWitness{C}{C}{Bodleian Mich. 413}
+\DeclareWitness{N}{N}{New York JTSA 2497}
+\DeclareWitness{A}{A}{Milan Ambrosiana Ms X 132 Sup.}
+\DeclareWitness{D}{D}{Bodleian Mich. 413}
+\DeclareWitness{G}{G}{Moscou Guenzburg 1184}
+\DeclareWitness{H}{H}{Harvard Ms. Heb. 58}
+\DeclareWitness{E}{E}{Munich Cod. Heb. 33}
+\DeclareWitness{P}{P}{Parma Palatina 2449}
+\DeclareWitness{F}{F}{New York JTSA Ms. 2415}
+\DeclareWitness{BL}{\LR{BL}}{British Library Or. 1084}
+
+\def\ppar{\par}
+\FormatDiv{1}{\noindent\bfseries}{\ppar}
+
+\AtBeginEnvironment{hebrew}{\setRL\hebfont}
+
+\usepackage{xltabular}
+\usepackage{nextpage}
+
+\begin{document}
+\begin{xltabular}[c]{.7\linewidth}{lXl}
+  \caption*{\bfseries Conspectus Siglorum}\\
+  \SigLine{B}\\
+  \SigLine{V}\\
+  \SigLine{M}\\
+  \SigLine{F}\\
+  \SigLine{C}\\
+  \SigLine{N}\\
+  \SigLine{A}\\
+  \SigLine{D}\\
+  \SigLine{G}\\
+  \SigLine{H}\\
+  \SigLine{E}\\
+  \SigLine{P}\\
+  \SigLine{F}\\
+  \SigLine{BL}\\
+\end{xltabular}
+
+\SetAlignment{
+  tcols=2,
+  lcols=1,
+  texts=french;hebrew,
+  apparatus=hebrew
+}
+
+\cleartoevenpage
+
+\begin{alignment}
+  \begin{french}
+    \ekddiv{head=Premier chapitre, n=1}
+
+    Sur le secret des six questions et des six réponses qui étaient
+    demandées à propos des secrets des \enquote{Ourim et Toumim},
+    \enquote{et ils se termineront en jointure […] dans le premier
+      anneau} (Exode 26, 24). Et elles sont celles qui sont indiquées
+    dans les douze maisons du Nom honoré de quatre lettres, et leurs
+    formes changeantes, et les quatre périodes exemplifiées dans le
+    pectoral [ḥošen, un des vêtements du grand prêtre] et leurs
+    points. Et quelques-uns des anciens qui cherchaient à trouver les
+    paroles de volonté ont référé la compréhension de ce secret à
+    quelques traces, et ce sont les versets \enquote{des fils
+      d’Issacar, qui savaient discerner les temps afin de connaître ce
+      que devait faire Israël} (I Chr. 12, 33), et \enquote{un homme
+      tout prêt} (Lev 16,21), et c’est un secret extrêmement caché
+    dont je donnerai quelques pistes dans ce qui suit.
+  \end{french}
+  
+  \begin{hebrew}
+  \ekddiv{head={הפרק הראשון}, n=1}
+
+ בסוד שש שאלות \app{\lem{ושש}}{
+      \rdg[wit=N]{ושלש}
+    } \app{\lem[sep={ +}]{תשובות}}{
+      \rdg[wit={G, N, A, C, V, BL, B, M}]{הנשאלות}
+    } \app{\lem{בסוד}}{
+      \rdg[wit={BL}]{בסודי}
+    } אורים \app{\lem{ותומים}}{
+      \rdg[wit={G}]{ותומ}
+    } \emph{\app{\lem{ויחדו}}{
+      \rdg[wit={G, N, C, F, M}]{ויחדיו}
+    } יהיו תמים אל הטבעת
+\app{\lem{האחת}}{
+  \rdg[wit={M}]{הזאת}
+}} והם המכוונות בסוד שנים עשר בתי השם הנכבד \app{\lem{בן}}{
+\rdg[wit={BL}]{בין}
+} ארבע אותיות
+ובצורותיהם \app{\lem{המשתנות}}{
+  \rdg[wit={BL}]{המשתיות}
+} ותקופותים הארבע הנמשלות בטורי החשן ובנקודיהם. ומקצת
+הקדמונים המבקשים למצוא דברי חפץ נתיחסו הבנת קצת רושם זה הסוד והם שנאמ'
+בערם ומבני יששכר יודעי בינה לעתים לדעת מה יעשה ישראל ונאמר גם כן איש
+עתי והוא סוד נעלם בתכלית העלמה ארמוז אליו קצת רמז תכף זה.
+
+\end{hebrew}
+\end{alignment}
+\end{document}

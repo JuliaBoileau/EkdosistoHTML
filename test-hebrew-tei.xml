@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><!-- Title --></title>
+<respStmt>
+<resp><!-- Edited by --></resp>
+<name><!-- Name --></name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor><!-- Distributor name  --></distributor>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="B">
+<abbr type="siglum">B</abbr>
+Bodleian Pococke 296
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V">
+<abbr type="siglum">V</abbr>
+Manuscrit Vatican 335
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="M">
+<abbr type="siglum">M</abbr>
+Moscou Guenzburg 341
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>61r-</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="F">
+<abbr type="siglum">F</abbr>
+BNF Paris Ms. Héb. 982
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C">
+<abbr type="siglum">C</abbr>
+Bodleian Mich. 413
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N">
+<abbr type="siglum">N</abbr>
+New York JTSA 2497
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="A">
+<abbr type="siglum">A</abbr>
+Milan Ambrosiana Ms X 132 Sup.
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="D">
+<abbr type="siglum">D</abbr>
+Bodleian Mich. 413
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="G">
+<abbr type="siglum">G</abbr>
+Moscou Guenzburg 1184
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="H">
+<abbr type="siglum">H</abbr>
+Harvard Ms. Heb. 58
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="E">
+<abbr type="siglum">E</abbr>
+Munich Cod. Heb. 33
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P">
+<abbr type="siglum">P</abbr>
+Parma Palatina 2449
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="BL">
+<abbr type="siglum">BL</abbr>
+British Library Or. 1084
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:id="div-french_1"><div n="1"><head>Premier chapitre</head><p>Sur le secret des six questions et des six réponses qui étaient demandées à propos des secrets des <quote>Ourim et Toumim</quote>, <quote>et ils se termineront en jointure […] dans le premier anneau</quote> (Exode 26, 24). Et elles sont celles qui sont indiquées dans les douze maisons du Nom honoré de quatre lettres, et leurs formes changeantes, et les quatre périodes exemplifiées dans le pectoral [ḥošen, un des vêtements du grand prêtre] et leurs points. Et quelques-uns des anciens qui cherchaient à trouver les paroles de volonté ont référé la compréhension de ce secret à quelques traces, et ce sont les versets <quote>des fils d’Issacar, qui savaient discerner les temps afin de connaître ce que devait faire Israël</quote> (I Chr. 12, 33), et <quote>un homme tout prêt</quote> (Lev 16,21), et c’est un secret extrêmement caché dont je donnerai quelques pistes dans ce qui suit.</p></div></div><div xml:id="div-hebrew_1"><div n="1"><head>הפרק הראשון</head><p>בסוד שש שאלות <app><lem>ושש</lem></app>{<rdg wit="#N">ושלש</rdg>} <app><lem>תשובות</lem></app>{<rdg wit="#G #N #A #C #V #BL #B #M">הנשאלות</rdg>} <app><lem>בסוד</lem></app>{<rdg wit="#BL">בסודי</rdg>} אורים <app><lem>ותומים</lem></app>{<rdg wit="#G">ותומ</rdg>} <emph><app><lem>ויחדו</lem></app>{<rdg wit="#G #N #C #F #M">ויחדיו</rdg>} יהיו תמים אל הטבעת <app><lem>האחת</lem></app>{<rdg wit="#M">הזאת</rdg>}</emph> והם המכוונות בסוד שנים עשר בתי השם הנכבד <app><lem>בן</lem></app>{<rdg wit="#BL">בין</rdg>} ארבע אותיות ובצורותיהם <app><lem>המשתנות</lem></app>{<rdg wit="#BL">המשתיות</rdg>} ותקופותים הארבע הנמשלות בטורי החשן ובנקודיהם. ומקצת הקדמונים המבקשים למצוא דברי חפץ נתיחסו הבנת קצת רושם זה הסוד והם שנאמ' בערם ומבני יששכר יודעי בינה לעתים לדעת מה יעשה ישראל ונאמר גם כן איש עתי והוא סוד נעלם בתכלית העלמה ארמוז אליו קצת רמז תכף זה.</p></div></div>
+</body>
+</text>
+</TEI>

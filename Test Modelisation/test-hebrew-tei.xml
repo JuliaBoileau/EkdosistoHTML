@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="ekdosis-to-html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../../../../Applications/v-machine/src/vmachine.xsl"?>
+<?xml-stylesheet type="text/css" href="../../../../../Applications/v-machine/src/vmachine.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>

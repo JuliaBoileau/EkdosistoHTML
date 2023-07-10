@@ -1,5 +1,5 @@
 
-:::info Tous les outils proposés sont *open source*. :::
+> Tous les outils proposés sont *open source*.
 
 ## TEI Boilerplate
 

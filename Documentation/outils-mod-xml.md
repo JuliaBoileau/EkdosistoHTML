@@ -5,20 +5,18 @@
 
 ### Fonctionnement
 
-Charger son document XML-TEI automatiquement converti en HTML, baliser le contenu et personnaliser le rendu grâce à un ajout CSS. 
+Charger son document XML-TEI automatiquement converti en HTML, baliser le contenu et personnaliser le rendu grâce à une feuille de style CSS. 
 
 ### Avantages
 
-- Mise en ligne rapide de projets légers
-- Conversion HTML automatique 
+- Idéal pour la mise en ligne rapide et légère de projets simples (publications non critiques) 
 - Exige très peu de programmation
 - Compatible avec plusieurs navigateurs : Firefox, Chrome, Safari, et Internet Explorer
 
 ### Limitations
 
-- Fonctionnalités limitées
+- Fonctionnalités et personnalisation limitées
 - Non favorable à l'édition critique - aucune option de versionnage ou de visualisation parallèle (colonne unique) 
-- Personnalisation limitée
 
 ### Demo
 [Demo des fonctionnalités](https://dcl.ils.indiana.edu/teibp/content/demo.xml)
@@ -27,21 +25,20 @@ Charger son document XML-TEI automatiquement converti en HTML, baliser le conten
 
 ### Fonctionnement
 
-Charger les dossiers XML-TEI (en local ou en ligne), visualiser les versions, appliquer une feuille html.xslt (recommandé), intégrer les annotations et métadonnées, personnaliser le rendu grâce à une feuille CSS, possibilité d'ajout JavaScript au besoin, exporter les résultats pour partage web statique. 
+Charger les dossiers XML-TEI (en local ou en ligne), visualiser les versions, appliquer une feuille html.xslt (recommandé), intégrer les annotations et métadonnées, personnaliser le rendu grâce à une feuille CSS, possibilité d'ajouts JavaScript au besoin, exporter les résultats pour un partage web statique. 
 
 ### Avantages
 
 - Comparaison de nombreuses versions et mise en évidence des différences pour analyse
 - Flexibilité d'affichage des versions comparatives ajoutées à l'écran
 - Personnalisation avancée de la visualisation
-- Inclusion d’images et de facsimiles
-- Communauté d'utilisateurs active
+- Inclusion d’images et de facsimilés
 
 ### Limitations
 
 - Fonctionnalités limitées : axé davantage sur la comparaison que sur le balisage et l'annotation
-- Manipulation manuelle des versions comparatives ajoutées à l'écran - désavantageuse si en grand nombre 
 - Pérennité potentiellement compromise par les améliorations portées aux versions de l'outil
+- Très peu de documentation et de ressources externes, aucun tutoriel diponible
 - Fonctionne uniquement sur mac OS ou PC
 
 ### Demo
@@ -52,23 +49,33 @@ Charger les dossiers XML-TEI (en local ou en ligne), visualiser les versions, ap
 
 ### Fonctionnement
 
-Application [eXist-db](http://exist-db.org/exist/apps/homepage/index.html). Charger son document, appliquer un modèle d'ODD, ajuster et personnaliser le modèle selon les exigences du texte, ajuster le rendu grâce à une feuille de style CSS, publier en multiformat, si désiré, puis générer une application web grâce au module intégré.
+TEI Publisher est une application [eXist-db](http://exist-db.org/exist/apps/homepage/index.html). 
+
+Après avoir chargé les documents xml-TEI d'une édition, on applique un schéma ODD de base fourni par la plateforme (ou l'un des modèles proposés en démo), que l'on peut ajuster et personnaliser selon les exigences du texte, afin d'afficher adéquatement les dispositifs de l'édition.
+
+Une fois le rendu éditorial satisfaisant, on génère une application web grâce au module intégré, qui fournit un segment URL personnalisé. On ajuste ce rendu web grâce à une feuille HTML automatiquement générée à partir de l'XML ; c'est l'endroit où ajouter des pages web et organiser la structure des contenus. 
+
+L'apparence du rendu est enfin peaufinée grâce à une feuille de style CSS, et des fonctions JavaScript peuvent être ajoutées au besoin. 
+
+Une fois le site web déployé, la consultation est ouverte au public. Il demeure possible d'effectuer des ajouts et modifications en tout temps. 
+
+> Voir la [documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook&view=div) et les [tutoriels](https://www.youtube.com/watch?v=QuWrfAS2SWM&list=PLx8WACGMjM7mmlJXUW-SdEKw9pEBNMzfW) sur la chaîne Youtube de l'organisme [e-editiones.org](e-editiones.org)
 
 ### Avantages
 
 - *Single source publishing*
 - Plusieurs modèles personnalisables
-- Exige peu de programmation : édition de l'ODD possible au format texte (code) ou grâce à l'interface visuelle *code free* pour les non-initiés
+- Exige peu de codage : édition de l'ODD possible au format texte (code) ou grâce à l'interface visuelle *code free* pour les non-initiés
+- L'édition critique du texte (XML-TEI, ODD, CSS) est distincte de la programmation web (HTML, CSS, JavaScript) ; plusieurs textes édités selon différents schémas peuvent être disposés sur une même page web 
 - Capacité de balisage étendue : variations textuelles, interventions éditoriales, appareils critiques, commentaires, etc.
 - Génération de contenus dynamiques : table des matières, index, etc.
 - Inclusion d'images et de facsimilés
 - Adapté à plusieurs outils de lecture
 
-*Tutoriels disponibles sur la chaîne Youtube [e-editiones](https://www.youtube.com/@e-editiones8339)*
-
 ### Limitations
 
 - Exige certaines compétences techniques pour un balisage précis (XML-TEI et XPath)
+- Exige une période d'adaptation à la plateforme et au système de fichiers en place
 
 ### Demo 
 [Van Gogh](https://teipublisher.com/exist/apps/vangogh/let001a.xml?view=page&odd=vangogh&panels=0.2) | [When the Wall Came Down](https://teipublisher.com/exist/apps/dodis-facets/53168.xml?view=body&odd=dodis)

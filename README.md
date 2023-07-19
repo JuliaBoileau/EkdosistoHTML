@@ -7,7 +7,7 @@
 
 ## Description
 
-Projet de modélisation numérique d'une édition critique de l'oeuvre *Le bouquet de myrrhe (Tseror ha-mor)*, par Isaac b. Abraham ibn Latif (ca. 1210-1280), grâce à la plateforme [TEI Publisher](https://teipublisher.com/index.html). 
+Projet de modélisation numérique d'une édition critique de l'oeuvre *Le bouquet de myrrhe (Tseror ha-mor)*, par Isaac b. Abraham ibn Latif (ca. 1210-1280), au moyen de la plateforme [TEI Publisher](https://teipublisher.com/index.html). 
 
 ## Technolgies principales
 

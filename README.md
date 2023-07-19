@@ -1,6 +1,5 @@
 <div align="center">
   <h1>Ekdosis to HTML</h1>
-  <strong>Prototype numérique d'une édition critique de l'oeuvre <em>Le bouquet de myrrhe (Tseror ha-mor)</em>, par Isaac b. Abraham ibn Latif.</strong><br>
   <strong>Dans le cadre du cours SCI6865 - Stage d'édition numérique. <a href="https://ecrituresnumeriques.ca/fr/" target="_blank">Chaire de recherche du Canada sur les Écritures Numériques</a>. Université de Montréal.</strong>
 </div>
 <br>

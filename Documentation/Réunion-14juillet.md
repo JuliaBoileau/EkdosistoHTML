@@ -31,11 +31,11 @@ Une fois le site web déployé, la consultation est ouverte au public. Il demeur
 
 ## 2. Discussion - Dispositifs de l'édition et préférences d'affichage
 
-Échantillon d'un premier chapitre prévu pour la fin juillet, qui contiendra tous les dispositifs requis à la création d'un prototype avancé d'ODD.
+Échantillon d'un premier chapitre prévu pour la fin juillet / début août, qui contiendra tous les dispositifs requis à la création d'un prototype avancé d'ODD.
 
-## 3. Échange rapide - Vision du site et les préférences d'apparence générales
+## 3. Échange rapide - Vision du site et préférences d'apparence générales
 
-
+Préférence pour le modèle web [Van Gogh Letters](https://teipublisher.com/exist/apps/vangogh/index.html) en 3 colonnes : Version française | Version hébraïque | Notes
 
 ## 4. *Crash course* Git et GitHub
 

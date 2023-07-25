@@ -5,8 +5,10 @@
 > [ekdosis](http://www.ekdosis.org/fr/index.html) est une extension LuaLaTeX conçue pour les éditions critiques multilingues. Elle peut être utilisée pour mettre en page des textes avec différents étages de notes critiques dans toute direction d'écriture prise en charge par [LuaTeX](https://www.luatex.org//). Les textes peuvent être présentés sous la forme de paragraphes continus ou bien en vis-à-vis, en colonnes multiples, alignées ou non. En plus de la version destinée à l'impression, ekdosis peut convertir le fichier-source .tex en fichier conforme au format TEI xml. L'encodage en LaTeX, orienté « base de données », permet l'extraction des textes saisis par segments selon différents critères : texte principal, variantes, traductions ou encore rédactions parallèles annotées par l'éditeur. 
 > ~ Robert Alessi, ekdosis.org
 
+<div class="note">
 - [Documentation PDF](https://ctan.mirror.rafal.ca/macros/luatex/latex/ekdosis/ekdosis.pdf)
 - Lecture suggérée : [Estelle Debouy, « Présenter une édition numérique de fragments », dans Robert Alessi, Marcello Vitali-Rosati (dir.), Les éditions critiques numériques : entre tradition et changement de paradigme (édition augmentée), Les Presses de l’Université de Montréal, Montréal, 2023, isbn : 978-2-7606-4857-9, https://www.parcoursnumeriques-pum.ca/12-editionscritiques/chapitre6.html. version 0, 27/03/2023 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://www.parcoursnumeriques-pum.ca/12-editionscritiques/chapitre6.html)
+</div>
 
 ### TeX et LaTeX
 
@@ -70,3 +72,13 @@ XPath est un langage de requête (Query) utilisé pour naviguer dans les documen
 
 - Tutoriel rapide (15 min.) : [Learn Git in 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLAm2x6UxYwofxbHESgByJRUm0KP9KIs7h&index=23)
 - Tutoriel complet (1h) : [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk&list=PLAm2x6UxYwofxbHESgByJRUm0KP9KIs7h&index=26)
+
+
+<style>
+  .note {
+    background-color: #f7f7f7;
+    border-left: 4px solid #2196F3;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+</style>

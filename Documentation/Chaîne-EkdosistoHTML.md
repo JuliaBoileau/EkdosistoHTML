@@ -73,11 +73,10 @@ XPath est un langage de requête (Query) utilisé pour naviguer dans les documen
 - Tutoriel rapide (15 min.) : [Learn Git in 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLAm2x6UxYwofxbHESgByJRUm0KP9KIs7h&index=23)
 - Tutoriel complet (1h) : [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk&list=PLAm2x6UxYwofxbHESgByJRUm0KP9KIs7h&index=26)
 
-
 <style>
   .note {
     background-color: #f7f7f7;
-    border-left: 4px solid #2196F3;
+    border-left: 4px solid #2196F3; /* You can change the color as desired */
     padding: 10px;
     margin-bottom: 20px;
   }

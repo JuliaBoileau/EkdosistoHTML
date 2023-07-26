@@ -1,4 +1,4 @@
-# Rencontre du 14 juillet
+# Réunion du 14 juillet
 
 Guadalupe Gonzalez Dieguez & Julia Boileau
 

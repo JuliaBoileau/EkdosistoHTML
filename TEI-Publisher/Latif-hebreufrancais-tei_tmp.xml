@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><!-- Title --></title>
+<respStmt>
+<resp><!-- Edited by --></resp>
+<name><!-- Name --></name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor><!-- Distributor name  --></distributor>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="X">
+<abbr type="siglum">X</abbr>
+Parma Palatina 2634
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>31r-35v</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="B">
+<abbr type="siglum">B</abbr>
+Bodleian Pococke 296
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>148v-151v</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="V">
+<abbr type="siglum">V</abbr>
+Manuscrit Vatican 335
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>121r-124r</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="M">
+<abbr type="siglum">M</abbr>
+Moscou Guenzburg 341
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>61r-64v</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="F">
+<abbr type="siglum">F</abbr>
+BNF Paris Ms. Héb. 982
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>80r-85v</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="C">
+<abbr type="siglum">C</abbr>
+Bodleian Mich. 413
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>126r-129v</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="N">
+<abbr type="siglum">N</abbr>
+New York JTSA 2497
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>4v-6v</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="A">
+<abbr type="siglum">A</abbr>
+Milan Ambrosiana Ms X 132 Sup.
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>99v-104r</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="D">
+<abbr type="siglum">D</abbr>
+Bodleian Mich. 501
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>69v-74r</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="G">
+<abbr type="siglum">G</abbr>
+Moscou Guenzburg 1184
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>202v-209v</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="H">
+<abbr type="siglum">H</abbr>
+Harvard Ms. Heb. 58
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>114r-116r</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="E">
+<abbr type="siglum">E</abbr>
+Munich Cod. Heb. 33
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>224r-228v</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="P">
+<abbr type="siglum">P</abbr>
+Parma Palatina 2449
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>26v-30v</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="J">
+<abbr type="siglum">J</abbr>
+New York JTSA Ms. 2415
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>10r-15v</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+<witness xml:id="L">
+<abbr type="siglum">L</abbr>
+British Library Or. 1084
+<msDesc>
+<msIdentifier/>
+<msContents>
+<msItemStruct>
+<locus>90r-95v</locus>
+</msItemStruct>
+</msContents>
+</msDesc>
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+</teiHeader>
+<text>
+<body>
+<div xml:id="div-french_1"><div n="1"><head>Le sachet de myrrhe, par rabbi Isaac ibn Laṭif, de bénie mémoire \newline Poème de dédicace</head><p>Regardez, j'ai trouvé un livre sur ce qui sort de la bouche<note place="bottom">Selon le verset Deut 8, 3 : <quote>l’homme ne vit pas de pain seulement, mais il vit de tout ce qui sort de la bouche du Seigneur</quote>. Sur cette expression voir aussi Zohar 2:253a</note>. \\ Et sur mon Seigneur, le fondement du monde<note place="bottom">Prov 10, 25</note>, je l'ai bâti. \\ Si un manque on trouve en lui, cela sera par jalousie, \\ Car dans le cercle de ses interprètes <note place="bottom">Ps 24, 6</note> un homme parfait, je l'ai vu. \\ Pour qu'il soit un sachet scellé d'un sceau<note place="bottom">Selon le verset Job 14, 17 : <quote>scellé dans un sachet</quote>.</note> \\ La main droite sur lui<note place="bottom">Possible référence à une forme de serment.</note>, <emph>Le sachet de myrrhe</emph><note place="bottom">Ct 1, 13</note> je l'ai appelé. \\ Pour le nom de Ṭodros<note place="bottom">Référence à R. Ṭodros ben Yosef ha-Levi Abulafia (1225-c. 1285), grand rabbin de Castille et auteur de l’œuvre mystique <emph>’Oṣar ha-kavod</emph>, un commentaire mystique de l’Aggadah. Cette dédicace fournit l’une des rares précisions historiques qui nous permettent de placer Isaac ibn Laṭif dans le milieu Castillan (probablement Tolédan) du 13e siècle.</note>, le prince de Dieu, je l'ai fondé. \\ Et pour sa gloire je l'ai façonné et je l'ai fait<note place="bottom">Selon le verset Isaïe 43, 7 (mais on enlève le verbe bara’, qui s’applique exclusivement à Dieu comme créateur). Aussi voir récit de la Genèse.</note>.\\</p></div><div n="1"><head>Premier chapitre</head><p>Sur le secret des six questions et des six réponses qui étaient demandées à propos des secrets des <quote>Ourim et Toumim</quote>, <quote>et ils se termineront en jointure […] dans le premier anneau</quote> (Exode 26, 24). Et elles sont celles qui sont indiquées dans les douze maisons du Nom honoré de quatre lettres, et leurs formes changeantes, et les quatre périodes exemplifiées dans le pectoral [ḥošen, l'un des vêtements du grand prêtre] et leurs points. Et quelques-uns des anciens qui cherchaient à trouver les paroles de volonté ont référé la compréhension de ce secret à quelques traces, et ce sont les versets <quote>des fils d’Issacar, qui savaient discerner les temps afin de connaître ce que devait faire Israël</quote> (I Chr. 12, 33), et <quote>un homme tout prêt</quote> (Lev 16,21), et c’est un secret extrêmement caché dont je donnerai quelques pistes dans ce qui suit.</p><p>Je retourne à mon sujet, et je dis que les temps se réfèrent aussi à toute et chacune des douze heures qui sont indiquées dans les six questions et les six réponses arrangées dans les douze maisons du Nom décrites dans la Bible avec le mot <emph>temps</emph>. Et les temps se divisent nécessairement en deux moitiés, parce que si leur décompte était impair, la figure du temps au milieu reliée aux deux moitiés aurait une existence complète hors l'intellect, mais au contraire, il est impossible de se tenir sur elle, comme je l'expliquerai mieux dans les chapitres que je vais mettre après celui-ci, avec l'aide de Dieu, qu'Il soit béni. Et tout ça, c'est un secret divin, profond et très terrible, qui demande de la spéculation de l'intellect et de la spéculation de la pensée par rapport aux heures et aux temps. Et ne prête pas attention aux mots des sages d'Ahasverosh, à propos de qui la Bible dit <quote>qui connaissent les temps</quote> (Esther 1, 13), parce que c'est une science étrangère falsifiée et reliée aux douze planètes révélées dans les jugements des étoiles. En plus, il n'est pas dit à propos d'eux <quote>qui connaissent l'intelligence</quote>, mais seulement <quote>qui connaissent les temps</quote>.</p><p>Et tu dois savoir que le nombre de jours dans l'année solaire est de 365 et un quart, comme le nombre du Tétragramme, à propos duquel il est dit: <quote>c'est mon souvenir de génération en génération</quote> (Ex 3, 15), c'est-à-dire, dans tout et chaque cycle solaire. Et ce que David, la paix soit avec lui, a dit: <quote>je rappellerai ton Nom dans tous les âges</quote> (Ps 45, 18), ce qui veut dire, dans chaque cycle, aussi celui du jour, et comprends bien ça. Et le sage, la paix soit sur lui, selon son intention particulière à lui dans les secrets du livre de l'Ecclésiaste, indique les 28 temps qui changent selon les stations de la lune, pour faire savoir que selon le Nom elle décroisse, et selon le Nom elle croisse. Et voici que selon la plupart des chercheurs, son année est de 354 (jours) et un tiers, selon le nombre du Nom <quote>Yod Heh</quote>. Et toute l'intention est de servir à Dieu tous les jours.</p><p>David, la paix soit avec lui, dit: <quote>Mes heures sont dans Ta main</quote> (Ps 31, 16), et il considère le temps de la Volonté, dans lequel Celui qui Veut a voulu, selon ce qu'il est dit: <quote>Seigneur, voici ma prière: c'est le moment d'être bien vouloir</quote> (Ps 69, 14). Et il est dit: <quote>toute une vie dans sa bienveillance</quote> (Ps 30, 6).</p><p>Mais ce qui est dit: <quote>pour un instant sous sa colère</quote> (Ps. 30, 6) indique le moment à propos duquel il est dit: <quote>en un instant, ils meurent en pleine nuit</quote> (Job 34, 20); <quote>au jour du bonheur, soit heureux, et au jour du malheur, regarde: celui-ci autant que celui-là, Dieu les a faits</quote> (Eccl 7, 14), à la ressemblance de la tête du dragon (Teli) et sa queue. Et ils ont dit: <quote>à minuit le Seigneur frappa les premiers-nés</quote> (Ex 12, 29), et ils ont dit: <quote>je vais les dévorer dans un instant</quote> (Nom 16, 21); <quote>qu'un seul instant je monte au milieu de vous, je vous exterminerai</quote> (Ex 33, 5); <quote>un bref instant</quote> (Ésaïe 54, 7); <quote>là s'installera Lilith</quote> (Ésaïe 34, 14). Et comprends ça, <quote>cache-toi un instant, le temps que passe la colère</quote> (Ésaïe 26, 20). Et l'intention de <quote>un homme tout prêt</quote> (Lev 16, 21) est celui qui sait indiquer le temps, et non pas l'instant, et ça, c'est un secret merveilleux à la limite de la merveille.</p></div></div><div xml:id="div-hebrew_1"><div n="1"><head>צרור המור לרבי יצחק אבן לטיף</head><p>ראו <app><lem>ספר במוצא פי מצאתיו</lem><rdg wit="#G">ספר במוצא פיו</rdg></app> || ועל <app><lem>אדני</lem><rdg wit="#G">אדוני</rdg></app> יסוד עולם <app><lem>בניתיו</lem><rdg wit="#G">בניתו</rdg></app></p><p>ואם חסרון ידמו <app><lem>בו</lem><rdg wit="#G">בם</rdg></app> מקנאים || בדור דורשיו <app><lem>כאיש</lem><rdg wit="#B">כאם</rdg><rdg wit="#A">נאים</rdg></app> תמים ראיתיו</p><p><app><lem>ולהיותו</lem><rdg wit="#A">ולהיות</rdg></app> צרור <app><lem>חותם</lem><rdg wit="#A #L #B #V #M #F #C">חתום</rdg><rdg wit="#N">:</rdg></app> <app><lem>בחותם</lem><rdg wit="#L">באותם</rdg></app> || ימין <app><lem>עליו</lem><rdg wit="#G #L #A #N #C #B #F #M #V">עליון</rdg></app> צרור המור קראתיו</p><p><app><lem>לשם</lem><rdg wit="#C">על שם</rdg></app> <app><lem>טודרוס</lem><rdg wit="#G #B #A #F #M #C">טדרוס</rdg></app> נשיא האל יסדתיו || ולכבודו יצרתיו <app><lem>אף</lem><rdg wit="#A">ואף</rdg></app> עשיתיו</p></div><div n="1"><head>הפרק הראשון</head><p>בסוד שש שאלות <app><lem>ושש</lem><rdg wit="#N">ושלש</rdg></app> <app><lem>תשובות</lem><rdg wit="#G #N #A #C #V #L #B #M">הנשאלות</rdg></app> <app><lem>בסוד</lem><rdg wit="#L">בסודי</rdg></app> אורים ותומים <emph> <app><lem>ויחדו</lem><rdg wit="#G #N #C #F #M">יחדיו</rdg></app> יהיו תמים אל הטבעת <app><lem>האחת</lem><rdg wit="#M">הזאת</rdg></app> </emph>. והם <app><lem>המכוונות</lem><rdg wit="#N #B #F">המכונות</rdg></app> בסוד <app><lem>שנים עשר</lem><rdg wit="#N #A #F">י''ב</rdg></app> בתי <app><lem>השם</lem><rdg wit="#A">הש'</rdg></app> השם הנכבד <app><lem>בן</lem><rdg wit="#L">בין</rdg></app> <app><lem>ארבע</lem><rdg wit="#N">ד'</rdg></app> אותיות <app><lem>המבקשים...ובצורותיהם</lem><rdg wit="#G #A">:</rdg></app> <app><lem>המשתנות</lem><rdg wit="#L">המשתיות</rdg></app> <app><lem>ותקופותים</lem><rdg wit="#V #N #M #L #B">ותקופותיהם</rdg><rdg wit="#C #F">ותקופותיהןם</rdg></app> <app><lem>הארבע</lem><rdg wit="#N">הד'</rdg></app> הנמשלות בטורי <app><lem>החשן</lem><rdg wit="#C">החושן</rdg></app> <app><lem>ובנקודיהם</lem><rdg wit="#L">ובנקודותיה</rdg><rdg wit="#M #N #B #V">ובניקודיהם</rdg><rdg wit="#C #F">ובניקודיהן</rdg></app> ובנקודיהם. ומקצת הקדמונים המבקשים למצוא דברי חפץ נתיחסו <app><lem>הבנת</lem><rdg wit="#B #L #V #M #F #C #N #A #G">להבנת</rdg></app> קצת רושם <app><lem>זה</lem><rdg wit="#V">:</rdg></app> הסוד והם שנאמ' <emph> בערם ומבני יששכר יודעי בינה <app><lem>לעתים</lem><rdg wit="#L">לעיתים</rdg><rdg wit="#V #N">+ וגו'</rdg></app> <app><lem>לדעת מה יעשה ישראל</lem><rdg wit="??">:</rdg></app></emph> ונאמר גם <app><lem>כן</lem><rdg wit="#B #F">:</rdg></app> <emph> איש <app><lem>עתי</lem><rdg wit="#L">עיתי</rdg></app></emph> והוא סוד נעלם <app><lem>בתכלית</lem><rdg wit="#B">בתכליתה</rdg></app> <app><lem>העלמה</lem><rdg wit="#V">:</rdg></app> ארמוז אליו קצת רמז תכף זה.</p><p>ואשוב לכונתי ואומר כי העתים מכוונת ג''כ בכל שעה ושעה מי''ב שעו' המכוונ' לנגד ו' שאלו' וו' תשובות הערוכות להם בי''ב בתי השם תארום הכתובי' בעתים. והעתים נחלקי' לשני חצאים בהכרח כי אלו יהיה חשבונם נפרד יהיה ציור העתה האמצעית הקושרת לשני חצאים מצואה מציאות גמורה מחוץ לשכל, אלא שאי אפשר לעמוד עליה כמו שאבאר היטב בפרקי' שאביא אחר זה בע''ה ית'. וכל זה סוד אלקי עצום ונורא מאד צריך עיון שכלי ועיון מחשבי לכוין השעות והעתים. ואל תשם את לבך לדברי חכמי אחשורוש שנ' בהם יודעי העתים, כי היא דעה זרה מזוייפת מיוחסת לי''ב מזלו' נלוים אל משפטי הכוכבי', וגם לא נאמ' בהם יודעי בינה מלבד יודעי העתים.</p><p>ודע כי מספר ימי החמה שס''ה ורביע כמספר שם יהוה הנאמ' בו וזה זכרי לדור דור,רצה בו בכל הקפה והקפה שמשית. ומה שאמ' דוד ע''ה אזכיר שמך בכל דור ודור רצה בו בכל הקפה והקפה ג''כ יומית, והבן זה. והחכם ע''ה לפי כונתו המיוחדת לו בסתרי ספר קהלת רמז אל כ''ח עתים משתנות כנגד מחנות הלבנה להודיע כי על פי השם חונה ועל פיו נוסעת, וכן ימי שנתה על דעת רוב החוקרי' שנ''ד ושליש, שהם במספר שנה ושנה וכן במספר שם יה. והכונה כלה לשרת בשם ייי כל הימים.</p><p>ואמ' דוד ע''ה בידך עתותי והיה צופה אל עת רצון שבה הרוצה מתרצה כאמרו ואני תפלתי לך ייי עת רצון, ואמ' חיים ברצונו, רק מה שנ' כי רגע באפו כיון אל הרגע הנאמר בו רגע ימותו וחצות לילה גם את זה לעומת זה עשה האלקי' כדמיון ראש התלי וזנבו. ונאמ' ויהי בחצי הלילה וייי הכה כל בכור, וכן נאמ' ואכלה אותם כרגע, רגע אחד אעלה בקרבך, ברגע קטן. שם הרגיעה לילית. והבן זה, חבי כמעט רגע עד יעבד זעם. וכונת איש עתי יודע לכוין העת לא הרגע זה סוד מופלג בתכלית ההפלגה.</p></div></div></body></text></TEI>

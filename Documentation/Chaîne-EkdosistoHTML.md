@@ -1,17 +1,24 @@
 # Chaîne éditoriale - De ekdosis à HTML
 
-## Encodage LaTeX
+1. Encodage LaTeX de l'édition critique grâce au package ekdosis
+2. Compilation du document .tex et production d'un document TEI xml
+3. Dépôt du document TEI xml et création d'une ODD dans TEI Publisher
+4. Génération d'une application web TEI Publisher 
+5. Choix/création d'un modèle HTML, d'une feuille de style CSS et de fonctions JavaScript 
+6. Déploiement du projet d'édition
+
+## Encodage LaTeX ekdosis et compilation d'une sortie XML
 
 ### Logiciel TeX et langage LaTeX
 
-[TeX](https://fr.wikipedia.org/wiki/TeX#:~:text=TeX%20est%20un%20système%20logiciel,%27édition%20de%20l%27époque.) est un logiciel de mise en page développé par Donald Knuth dans les années 1970.
+[TeX](https://fr.wikipedia.org/wiki/TeX#:~:text=TeX%20est%20un%20système%20logiciel,%27édition%20de%20l%27époque.) est un logiciel de mise en page.
 
 Le langage de balisage LaTeX est un ensemble de macros et de commandes construit au-dessus de TeX pour simplifier le processus de composition et rendre la création et la structuration de documents plus facile et plus cohérente. 
 
 Exemple de document LaTeX :
 
 ```latex
-\documentclass{article} % Type de document (article, book, report, etc.)
+\documentclass{book} % Type de document (article, book, report, etc.)
 
 \begin{document} % Début du contenu du document
 
@@ -30,6 +37,8 @@ Vous pouvez désormais reconnaître un balisage \LaTeX. % Contenu de la section
 \end{document} % Fin du contenu du document
 ```
 
+
+
 #### Ressources TeX et LaTeX
 
 - Console recommandée : [MiKTeX](https://miktex.org/download) pour Windows PC | [MacTeX](https://tug.org/mactex/mactex-download.html) pour Mac OS
@@ -40,10 +49,10 @@ Vous pouvez désormais reconnaître un balisage \LaTeX. % Contenu de la section
 
 ### Paquet LaTeX ekdosis
 
-[ekdosis](http://www.ekdosis.org/fr/index.html) est une extension LuaLaTeX conçue pour les éditions critiques multilingues. Elle peut être utilisée pour mettre en page des textes avec différents étages de notes critiques dans toute direction d'écriture prise en charge par [LuaTeX](https://www.luatex.org//). Les textes peuvent être présentés sous la forme de paragraphes continus ou bien en vis-à-vis, en colonnes multiples, alignées ou non. En plus de la version destinée à l'impression, ekdosis peut convertir le fichier-source .tex en fichier conforme au format TEI xml. L'encodage en LaTeX, orienté « base de données », permet l'extraction des textes saisis par segments selon différents critères : texte principal, variantes, traductions ou encore rédactions parallèles annotées par l'éditeur. 
-~ Robert Alessi, ekdosis.org
+> [ekdosis](http://www.ekdosis.org/fr/index.html) est une extension LuaLaTeX conçue pour les éditions critiques multilingues. Elle peut être utilisée pour mettre en page des textes avec différents étages de notes critiques dans toute direction d'écriture prise en charge par [LuaTeX](https://www.luatex.org//). Les textes peuvent être présentés sous la forme de paragraphes continus ou bien en vis-à-vis, en colonnes multiples, alignées ou non. En plus de la version destinée à l'impression, ekdosis peut convertir le fichier-source .tex en fichier conforme au format TEI xml. L'encodage en LaTeX, orienté « base de données », permet l'extraction des textes saisis par segments selon différents critères : texte principal, variantes, traductions ou encore rédactions parallèles annotées par l'éditeur. 
+> ~ Robert Alessi, ekdosis.org
 
-Pour créer un document final à partir d'un fichier .tex et du package ekdosis, on utilise un compilateur TeX au format LuaLateX pour générer une sortie PDF (par défaut) et une sortie TEI-xml. Notez que trois compilations à la suite peuvent être nécessaires pour produire des sorties complètes. 
+Pour créer un document final à partir d'un fichier .tex et du package ekdosis, on utilise un compilateur TeX au format LuaLateX pour générer une sortie PDF (par défaut) et une sortie TEI xml. Notez que trois compilations peuvent être nécessaires à la production d'une sortie de document complète.
 
 #### Ressources ekdosis
 
@@ -59,26 +68,39 @@ La [Text Encoding Initiative (TEI)](https://tei-c.org) utilise le langage de bal
 - [Documentation](https://tei-c.org/release/doc/tei-p5-doc/fr/html/index.html) TEI
 - Logiciel recommandé : [Oxygen XML Editor 25.1](https://www.oxygenxml.com)
 
-## TEI Publisher
+## Édition sur TEI Publisher et déploiement d'une application web
 
-- Demo : [Van Gogh Letters](https://teipublisher.com/exist/apps/vangogh/index.html)
+### TEI Publisher
+
+TEXTE À PARTIR DES AVANTAGES/DÉSAVANTAGES
+
+- Exemple : [Van Gogh Letters](https://teipublisher.com/exist/apps/vangogh/index.html)
+- Version [demo](https://teipublisher.com/exist/apps/tei-publisher/index.html)
 - [Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook&view=div) TEI Publisher
 - [Tutoriels](https://www.youtube.com/watch?v=QuWrfAS2SWM&list=PLx8WACGMjM7mmlJXUW-SdEKw9pEBNMzfW) TEI Publisher, sur la [chaîne Youtube](https://www.youtube.com/@e-editiones8339) de l'organisme [e-editiones](https://www.e-editiones.org)
+- [Tutoriels additionnels](https://www.youtube.com/@wolfgangmm) par Wolfgang Meier
 
-### Document ODD
-
-ODD 
+### Document ODD - One Document Does it all
 
 ### XPath
+
 XPath est un langage de requête (Query) utilisé pour naviguer dans les documents XML et en extraire des informations spécifiques en fonction de leur emplacement dans la hiérarchie du document et de leurs attributs. 
 
 #### Ressources XPath
 
 - [Tutoriel](https://www.w3schools.com/xml/xpath_intro.asp) XPath
 
-### Développement web - HTML & CSS
+### Application web TEI Publisher
 
-- 
+### Développement web : HTML/CSS/JavaScript
+
+#### Ressources HTML, CSS et JavaScript
+
+- Cours HTML recomandé : [HTML Essential Training](https://www.linkedin.com/learning/html-essential-training-4), par Jen Simmons (30 jours gratuits sur [LinkedIn Learning](https://www.linkedin.com/learning/)) 
+- Plateforme [Codecademy](https://www.codecademy.com/learn) + [Chaîne Youtube](https://www.youtube.com/@codecademy) - Cours variés, tutoriels, articles et *cheatsheets*
+- Plateforme [freeCodeCamp](https://www.freecodecamp.org) + [Chaîne Youtube](https://www.youtube.com/@freecodecamp) - Cours variés et tutoriels
+
+___
 
 ## Protocole [Git](https://git-scm.com) et plateforme [GitHub](https://github.com)
 
@@ -87,3 +109,4 @@ XPath est un langage de requête (Query) utilisé pour naviguer dans les documen
 - [Documentation Git](https://git-scm.com/doc)
 - Tutoriel rapide (15 min.) : [Learn Git in 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLAm2x6UxYwofxbHESgByJRUm0KP9KIs7h&index=23)
 - Tutoriel complet (1h) : [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk&list=PLAm2x6UxYwofxbHESgByJRUm0KP9KIs7h&index=26)
+- Formation [Débugue tes humanités - Séance 04 - Git](https://debugue.ecrituresnumeriques.ca/seance-04-git/presentation.html#/)

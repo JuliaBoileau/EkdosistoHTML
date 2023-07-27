@@ -39,34 +39,34 @@ Vous pouvez désormais reconnaître un balisage \LaTeX. % Contenu de la section
 
 
 
-#### Ressources TeX et LaTeX
-
-- Console recommandée : [MiKTeX](https://miktex.org/download) pour Windows PC | [MacTeX](https://tug.org/mactex/mactex-download.html) pour Mac OS
-- Éditeur de texte recommandé : [TeXMaker](https://www.xm1math.net/texmaker/)
-- Plateforme suggérée : [Overleaf](https://fr.overleaf.com)
-- [Documentation](https://fr.overleaf.com/learn) LaTeX
-- [Tutoriel vidéo](https://www.youtube.com/watch?v=ydOTMQC7np0&t=11522s) LaTeX complet, sur la [chaîne Youtube](https://www.youtube.com/@freecodecamp) de la plateforme [freeCodeCamp](https://www.freecodecamp.org)
+> **Ressources TeX et LaTeX**
+>
+> - Console recommandée : [MiKTeX](https://miktex.org/download) pour Windows PC | [MacTeX](https://tug.org/mactex/mactex-download.html) pour Mac OS
+> - Éditeur de texte recommandé : [TeXMaker](https://www.xm1math.net/texmaker/)
+> - Plateforme suggérée : [Overleaf](https://fr.overleaf.com)
+> - [Documentation](https://fr.overleaf.com/learn) LaTeX
+> - [Tutoriel vidéo](https://www.youtube.com/watch?v=ydOTMQC7np0&t=11522s) LaTeX complet, sur la [chaîne Youtube](https://www.youtube.com/@freecodecamp) de la plateforme [freeCodeCamp](https://www.freecodecamp.org)
 
 ### Paquet LaTeX ekdosis
 
-> [ekdosis](http://www.ekdosis.org/fr/index.html) est une extension LuaLaTeX conçue pour les éditions critiques multilingues. Elle peut être utilisée pour mettre en page des textes avec différents étages de notes critiques dans toute direction d'écriture prise en charge par [LuaTeX](https://www.luatex.org//). Les textes peuvent être présentés sous la forme de paragraphes continus ou bien en vis-à-vis, en colonnes multiples, alignées ou non. En plus de la version destinée à l'impression, ekdosis peut convertir le fichier-source .tex en fichier conforme au format TEI xml. L'encodage en LaTeX, orienté « base de données », permet l'extraction des textes saisis par segments selon différents critères : texte principal, variantes, traductions ou encore rédactions parallèles annotées par l'éditeur. 
-> ~ Robert Alessi, ekdosis.org
+[ekdosis](http://www.ekdosis.org/fr/index.html) est une extension LuaLaTeX conçue pour les éditions critiques multilingues. Elle peut être utilisée pour mettre en page des textes avec différents étages de notes critiques dans toute direction d'écriture prise en charge par [LuaTeX](https://www.luatex.org//). Les textes peuvent être présentés sous la forme de paragraphes continus ou bien en vis-à-vis, en colonnes multiples, alignées ou non. En plus de la version destinée à l'impression, ekdosis peut convertir le fichier-source .tex en fichier conforme au format TEI xml. L'encodage en LaTeX, orienté « base de données », permet l'extraction des textes saisis par segments selon différents critères : texte principal, variantes, traductions ou encore rédactions parallèles annotées par l'éditeur. 
+~ Robert Alessi, ekdosis.org
 
 Pour créer un document final à partir d'un fichier .tex et du package ekdosis, on utilise un compilateur TeX au format LuaLateX pour générer une sortie PDF (par défaut) et une sortie TEI xml. Notez que trois compilations peuvent être nécessaires à la production d'une sortie de document complète.
 
-#### Ressources ekdosis
-
-- [Documentation PDF](https://ctan.mirror.rafal.ca/macros/luatex/latex/ekdosis/ekdosis.pdf)
-- Lecture suggérée : [Estelle Debouy, « Présenter une édition numérique de fragments », dans Robert Alessi, Marcello Vitali-Rosati (dir.), Les éditions critiques numériques : entre tradition et changement de paradigme (édition augmentée), Les Presses de l’Université de Montréal, Montréal, 2023, isbn : 978-2-7606-4857-9, https://www.parcoursnumeriques-pum.ca/12-editionscritiques/chapitre6.html. version 0, 27/03/2023 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://www.parcoursnumeriques-pum.ca/12-editionscritiques/chapitre6.html)
+> **Ressources ekdosis**
+> 
+> - [Documentation PDF](https://ctan.mirror.rafal.ca/macros/luatex/latex/ekdosis/ekdosis.pdf)
+> - Lecture suggérée : [Estelle Debouy, « Présenter une édition numérique de fragments », dans Robert Alessi, Marcello Vitali-Rosati (dir.), Les éditions critiques numériques : entre tradition et changement de paradigme (édition augmentée), Les Presses de l’Université de Montréal, Montréal, 2023, isbn : 978-2-7606-4857-9, https://www.parcoursnumeriques-pum.ca/12-editionscritiques/chapitre6.html. version 0, 27/03/2023 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://www.parcoursnumeriques-pum.ca/12-editionscritiques/chapitre6.html)
 
 ### TEI xml
 
 La [Text Encoding Initiative (TEI)](https://tei-c.org) utilise le langage de balisage extensible (XML) pour encoder les textes de manière structurée et normalisée. Le fichier TEI-XML fourni par la compilation TeX peut servir de base à une publication web au format cousin HTML. 
 
-#### Ressources TEI xml
-
-- [Documentation](https://tei-c.org/release/doc/tei-p5-doc/fr/html/index.html) TEI
-- Logiciel recommandé : [Oxygen XML Editor 25.1](https://www.oxygenxml.com)
+> **Ressources TEI xml**
+> 
+> - [Documentation](https://tei-c.org/release/doc/tei-p5-doc/fr/html/index.html) TEI
+> - Logiciel recommandé : [Oxygen XML Editor 25.1](https://www.oxygenxml.com)
 
 ## Édition sur TEI Publisher et déploiement d'une application web
 
@@ -74,11 +74,13 @@ La [Text Encoding Initiative (TEI)](https://tei-c.org) utilise le langage de bal
 
 TEXTE À PARTIR DES AVANTAGES/DÉSAVANTAGES
 
-- Exemple : [Van Gogh Letters](https://teipublisher.com/exist/apps/vangogh/index.html)
-- Version [demo](https://teipublisher.com/exist/apps/tei-publisher/index.html)
-- [Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook&view=div) TEI Publisher
-- [Tutoriels](https://www.youtube.com/watch?v=QuWrfAS2SWM&list=PLx8WACGMjM7mmlJXUW-SdEKw9pEBNMzfW) TEI Publisher, sur la [chaîne Youtube](https://www.youtube.com/@e-editiones8339) de l'organisme [e-editiones](https://www.e-editiones.org)
-- [Tutoriels additionnels](https://www.youtube.com/@wolfgangmm) par Wolfgang Meier
+> **Ressources TEI Publisher**
+> 
+> - Exemple : [Van Gogh Letters](https://teipublisher.com/exist/apps/vangogh/index.html)
+> - Version [demo](https://teipublisher.com/exist/apps/tei-publisher/index.html)
+> - [Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook&view=div) TEI Publisher
+> - [Tutoriels](https://www.youtube.com/watch?v=QuWrfAS2SWM&list=PLx8WACGMjM7mmlJXUW-SdEKw9pEBNMzfW) TEI Publisher, sur la [chaîne Youtube](https://www.youtube.com/@e-editiones8339) de l'organisme [e-editiones](https://www.e-editiones.org)
+> - [Tutoriels additionnels](https://www.youtube.com/@wolfgangmm) par Wolfgang Meier
 
 ### Document ODD - One Document Does it all
 
@@ -86,27 +88,27 @@ TEXTE À PARTIR DES AVANTAGES/DÉSAVANTAGES
 
 XPath est un langage de requête (Query) utilisé pour naviguer dans les documents XML et en extraire des informations spécifiques en fonction de leur emplacement dans la hiérarchie du document et de leurs attributs. 
 
-#### Ressources XPath
-
-- [Tutoriel](https://www.w3schools.com/xml/xpath_intro.asp) XPath
+> **Ressources XPath**
+> 
+> - [Tutoriel](https://www.w3schools.com/xml/xpath_intro.asp) XPath
 
 ### Application web TEI Publisher
 
 ### Développement web : HTML/CSS/JavaScript
 
-#### Ressources HTML, CSS et JavaScript
-
-- Cours HTML recomandé : [HTML Essential Training](https://www.linkedin.com/learning/html-essential-training-4), par Jen Simmons (30 jours gratuits sur [LinkedIn Learning](https://www.linkedin.com/learning/)) 
-- Plateforme [Codecademy](https://www.codecademy.com/learn) + [Chaîne Youtube](https://www.youtube.com/@codecademy) - Cours variés, tutoriels, articles et *cheatsheets*
-- Plateforme [freeCodeCamp](https://www.freecodecamp.org) + [Chaîne Youtube](https://www.youtube.com/@freecodecamp) - Cours variés et tutoriels
+> **Ressources HTML, CSS et JavaScript**
+> 
+> - Cours HTML recomandé : [HTML Essential Training](https://www.linkedin.com/learning/html-essential-training-4), par Jen Simmons (30 jours gratuits sur [LinkedIn Learning](https://www.linkedin.com/learning/)) 
+> - Plateforme [Codecademy](https://www.codecademy.com/learn) + [Chaîne Youtube](https://www.youtube.com/@codecademy) - Cours variés, tutoriels, articles et *cheatsheets*
+> - Plateforme [freeCodeCamp](https://www.freecodecamp.org) + [Chaîne Youtube](https://www.youtube.com/@freecodecamp) - Cours variés et tutoriels
 
 ___
 
 ## Protocole [Git](https://git-scm.com) et plateforme [GitHub](https://github.com)
 
-### Ressources Git et GitHub
-
-- [Documentation Git](https://git-scm.com/doc)
-- Tutoriel rapide (15 min.) : [Learn Git in 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLAm2x6UxYwofxbHESgByJRUm0KP9KIs7h&index=23)
-- Tutoriel complet (1h) : [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk&list=PLAm2x6UxYwofxbHESgByJRUm0KP9KIs7h&index=26)
-- Formation [Débugue tes humanités - Séance 04 - Git](https://debugue.ecrituresnumeriques.ca/seance-04-git/presentation.html#/)
+> **Ressources Git et GitHub**
+> 
+> - [Documentation Git](https://git-scm.com/doc)
+> - Tutoriel rapide (15 min.) : [Learn Git in 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLAm2x6UxYwofxbHESgByJRUm0KP9KIs7h&index=23)
+> - Tutoriel complet (1h) : [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk&list=PLAm2x6UxYwofxbHESgByJRUm0KP9KIs7h&index=26)
+> - Formation [Débugue tes humanités - Séance 04 - Git](https://debugue.ecrituresnumeriques.ca/seance-04-git/presentation.html#/)

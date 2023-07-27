@@ -51,7 +51,7 @@ Charger les dossiers XML-TEI (en local ou en ligne), visualiser les versions, ap
 
 TEI Publisher est une application [eXist-db](http://exist-db.org/exist/apps/homepage/index.html). 
 
-Après avoir chargé les documents xml-TEI d'une édition, on applique un schéma ODD de base fourni par la plateforme (ou l'un des modèles proposés en démo), que l'on peut ajuster et personnaliser selon les exigences du texte, afin d'afficher adéquatement les dispositifs de l'édition.
+Après avoir chargé les documents xml-TEI d'une édition, on y applique un schéma ODD de base fourni par la plateforme (ou l'un des modèles proposés en démo), que l'on peut ajuster et personnaliser selon les exigences du texte, afin d'afficher adéquatement les dispositifs de l'édition.
 
 Une fois le rendu éditorial satisfaisant, on génère une application web grâce au module intégré, qui fournit un segment URL personnalisé. On ajuste ce rendu web grâce à une feuille HTML automatiquement générée à partir de l'XML ; c'est l'endroit où ajouter des pages web et organiser la structure des contenus. 
 

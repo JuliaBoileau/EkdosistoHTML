@@ -47,9 +47,11 @@ Un document LaTeX peut être codé dans un éditeur de texte ou produit à parti
 
 ### Paquet LaTeX ekdosis
 
-**Description générale par Robert Alessi, ekdosis.org** : [ekdosis](http://www.ekdosis.org/fr/index.html) est une extension LuaLaTeX conçue pour les éditions critiques multilingues. Elle peut être utilisée pour mettre en page des textes avec différents étages de notes critiques dans toute direction d'écriture prise en charge par [LuaTeX](https://www.luatex.org//). Les textes peuvent être présentés sous la forme de paragraphes continus ou bien en vis-à-vis, en colonnes multiples, alignées ou non. En plus de la version destinée à l'impression, ekdosis peut convertir le fichier-source .tex en fichier conforme au format TEI xml. L'encodage en LaTeX, orienté « base de données », permet l'extraction des textes saisis par segments selon différents critères : texte principal, variantes, traductions ou encore rédactions parallèles annotées par l'éditeur.
+**Description générale par Robert Alessi, ekdosis.org** : 
 
-Pour créer un document final à partir d'un fichier .tex et du package ekdosis, on utilise un compilateur TeX. Après l'ouverture du fichier LaTeX dans le compilateur, on effectue une compilation LuaLateX pour générer une sortie PDF (par défaut) et une sortie TEI xml. **Notez que trois compilations peuvent être nécessaires à la production d'une sortie de documents complète.** Il est bon de savoir que le paquet ekdosis prend en charge l'édition multiformat, soit papier et numérique.
+"[ekdosis](http://www.ekdosis.org/fr/index.html) est une extension LuaLaTeX conçue pour les éditions critiques multilingues. Elle peut être utilisée pour mettre en page des textes avec différents étages de notes critiques dans toute direction d'écriture prise en charge par [LuaTeX](https://www.luatex.org//). Les textes peuvent être présentés sous la forme de paragraphes continus ou bien en vis-à-vis, en colonnes multiples, alignées ou non. En plus de la version destinée à l'impression, ekdosis peut convertir le fichier-source .tex en fichier conforme au format TEI xml. L'encodage en LaTeX, orienté « base de données », permet l'extraction des textes saisis par segments selon différents critères : texte principal, variantes, traductions ou encore rédactions parallèles annotées par l'éditeur."
+
+Pour créer un document final à partir d'un fichier .tex et du package ekdosis, on utilise un compilateur TeX. Après l'ouverture du fichier LaTeX dans le compilateur, on effectue une compilation LuaLateX pour générer une sortie PDF (par défaut) et une sortie TEI xml. **Notez que trois compilations peuvent être nécessaires à la production d'une sortie de documents complète.** Il est bon de savoir que le paquet ekdosis prend en charge l'édition multiformat, à la fois papier et numérique.
 
 > **Ressources ekdosis**
 > 
@@ -78,7 +80,7 @@ TEI Publisher est une application [eXist-db](http://exist-db.org/exist/apps/home
 - Permet le *single source publishing* en multiformat
 - Offre plusieurs modèles d'ODD et de rendus web personnalisables
 - Exige peu de codage ; l'édition de l'ODD est possible au format texte (code) ou grâce à l'interface visuelle *code free* pour les non-initiés
-- Permet une édition critique sémantique du texte (XML-TEI, ODD, CSS) distincte de la structuration et de l'affichage web (HTML, CSS, JavaScript)
+- Permet une édition critique sémantique du texte (XML-TEI, ODD, CSS) distincte de l'affichage et des fonctions web (HTML, CSS, JavaScript)
 - Offre une capacité de balisage étendue (variations textuelles, interventions éditoriales, appareils critiques, commentaires, notes, etc.) et l'inclusion d'images et de facsimilés
 - Permet la génération de contenus dynamiques : table des matières, index, etc.
 - Produit un rendu adapté à plusieurs outils de lecture
@@ -91,9 +93,9 @@ TEI Publisher est une application [eXist-db](http://exist-db.org/exist/apps/home
 > **Ressources TEI Publisher**
 > 
 > - Exemple : [Van Gogh Letters](https://teipublisher.com/exist/apps/vangogh/index.html)
-> - Version [demo](https://teipublisher.com/exist/apps/tei-publisher/index.html)
+> - [Version d'essai](https://teipublisher.com/exist/apps/tei-publisher/index.html)
 > - [Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook&view=div) TEI Publisher
-> - [Tutoriels](https://www.youtube.com/watch?v=QuWrfAS2SWM&list=PLx8WACGMjM7mmlJXUW-SdEKw9pEBNMzfW) TEI Publisher, sur la [chaîne Youtube](https://www.youtube.com/@e-editiones8339) de l'organisme [e-editiones](https://www.e-editiones.org)
+> - **[Tutoriels](https://www.youtube.com/watch?v=QuWrfAS2SWM&list=PLx8WACGMjM7mmlJXUW-SdEKw9pEBNMzfW) TEI Publisher, sur la [chaîne Youtube](https://www.youtube.com/@e-editiones8339) de l'organisme [e-editiones](https://www.e-editiones.org)**
 > - [Tutoriels additionnels](https://www.youtube.com/@wolfgangmm) par Wolfgang Meier
 
 ### Document ODD - One Document Does it all
@@ -105,13 +107,13 @@ Contrairement à la DTD, une ODD est un document externe aux contraintes du stan
 Bien qu'une ODD soit d'ordinaire plus complexe à composer, le modèle et l'interface visuelle proposée par TEI Publisher facilitent grandement sa prise en charge.
 
 > - [Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?view=div&odd=docbook&id=behaviours-available#odd-customization-details) ODD sur la plateforme TEI Publisher
-> - [Documentation](https://tei-c.org/guidelines/customization/getting-started-with-p5-odds/) ODD sur le site TEI
+> - [Documentation](https://tei-c.org/guidelines/customization/getting-started-with-p5-odds/) ODD sur le site du consortium TEI
 
 #### XPath
 
 XPath est un langage de requête (Query) utilisé pour naviguer dans les documents XML et en extraire des informations spécifiques en fonction de leur emplacement dans la hiérarchie du document et de leurs attributs.
 
-Bien que non obligatoire, ce langage peut être très utile pour cibler des éléments dans le modèle ODD. Par exemple, on pourrait cibler les <div lang="hebreu">, afin d'aligner le texte qu'ils contiennent à droite. Le chemin XPath serait le suivant :
+Bien que non obligatoire, ce langage peut être très utile pour cibler des éléments dans le modèle ODD. Par exemple, on pourrait cibler les éléments `<div lang="he">`, soit les divisions au contenu hébreu, afin d'aligner le texte qu'ils contiennent à droite. Le chemin XPath serait le suivant :
 
 ```XML
 //div[@lang='hebreu']
@@ -157,7 +159,7 @@ HTML est le squelette de toute publication web.
 
 ```CSS
 h1 {
-    
+    color: forestgreen; 
 }
 ```
 
@@ -170,9 +172,6 @@ JavaScript permet l'ajout optionnel de fonctions supplémentaires bénéfiques a
 > - Cours HTML recomandé : [HTML Essential Training](https://www.linkedin.com/learning/html-essential-training-4), par Jen Simmons (30 jours gratuits sur [LinkedIn Learning](https://www.linkedin.com/learning/)) 
 > - Plateforme [Codecademy](https://www.codecademy.com/learn) + [Chaîne Youtube](https://www.youtube.com/@codecademy) - Cours variés, tutoriels, articles et *cheatsheets*
 > - Plateforme [freeCodeCamp](https://www.freecodecamp.org) + [Chaîne Youtube](https://www.youtube.com/@freecodecamp) - Cours variés et tutoriels
-
-___
-
 
 ## Protocole [Git](https://git-scm.com) et plateforme [GitHub](https://github.com)
 

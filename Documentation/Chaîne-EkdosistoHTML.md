@@ -73,7 +73,7 @@ En ce qui nous concerne, le fichier TEI xml fourni par la compilation TeX peut s
 
 ### TEI Publisher
 
-TEI Publisher est une application [eXist-db](http://exist-db.org/exist/apps/homepage/index.html).
+TEI Publisher est une application [eXist-db](http://exist-db.org/exist/apps/homepage/index.html). Il est recommandé de suivre les instructions d'installation directement sur le site.
 
 #### Avantages
 
@@ -104,6 +104,8 @@ Un Document Type Definition (DTD) est un fichier distinct employé comme schéma
 
 Contrairement à la DTD, une ODD est un document externe aux contraintes du standard XML, spécifique aux schémas Relax NG (web). Elle offre une plus grande flexibilité et extensibilité dans la documentation de structures de schémas complexes, en plus de permettre différents formats de sortie.
 
+Sur TEI Publisher, l'ODD permet d'encoder les éléments structurants de l'édition, tels que la disposition des colones, l'affichage de l'appareil critique, etc., ou encore, d'appliquer des emphases ou des couleurs sémantiquements significatives au texte. 
+
 Bien qu'une ODD soit d'ordinaire plus complexe à composer, le modèle et l'interface visuelle proposée par TEI Publisher facilitent grandement sa prise en charge.
 
 > - [Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?view=div&odd=docbook&id=behaviours-available#odd-customization-details) ODD sur la plateforme TEI Publisher
@@ -133,39 +135,65 @@ Une fois le rendu web satisfaisant, le site web peut être déposé sur un poste
 
 ### Développement web (HTML/CSS/JavaScript)
 
-Les fichiers 
+Le lancement du module web permet de lier au projet des fichiers de développement web ; ceux-ci peuvent être sélectionnés parmi les démos proposés, ou construits à partir d'un modèle de base. 
 
-#### HTML
+Il est important de se rappeler que les fichiers de développement web (HTML/CSS/JavaScript) ne devraient pas intervenir directement sur le texte de la publication, préalablement édité grâce à l'ODD, mais bien sur la structure du site qui accueille ce texte.
 
-HTML est le squelette de toute publication web. 
+#### Hypertext Markup Language (HTML)
+
+HTML est le squelette de toute publication web. Il encode et structure sémantiquement l'entièreté des contenus d'un site.
+
+Dans le `head`, on trouve les métadonnées : 
+- charte de code utilisée (standard `<meta charset="UTF-8"/>`)
+- titre d'onglet (`<title>`)
+- feuilles de style CSS ou de fonctions JavaScript (`<link rel="stylesheet" href="styles.css"/>`), etc.
+
+Dans le `body`, on trouve tous les contenus visibles : 
+- menu et pages (`<nav>`)
+- titres et intertitres (`<h1>, <h2>, ..., <h6>`)
+- corps de texte (`<p>`)
+- listes (ordonnées ou non `ol` / `ul` et items `li`)
+- liens (`<a href="site.com">`)
+- boutons (`<button>`), etc.
+
+Voici un exemple de document HTML complet, comportant une seule page statique : 
 
 ```HTML 
 <!DOCTYPE html> 
 <html> 
 <head> 
     <meta charset="UTF-8"/>
-    <title>Titre méta</title> 
-    <link rel="stylesheet" href="styles.css"/> 
+    <title>Titre méta</title>
 </head>
 <body> 
-    <h1>Titre du contenu visible</h1> 
-    <p>Paragraphe de texte en français.</p> 
+    <h1>Titre du contenu visible</h1>
+    <p lang="fr">Ceci est un paragraphe./p>
     <p lang="he">.פסקה של טקסט בעברית</p>
 </body>
 </html>
 ```
 
-#### CSS
+Notez que le document HTML fourni par le module TEI Publisher affiche des noms d'éléments particuliers à la plateforme, mais une connaissance de base en HTML standard permet de manipuler les composantes et d'obtenir la structure souhaitée selon les mêmes principes. 
+
+#### Cascading Style Sheet (CSS) 
+
+CSS est le langage graphique du web ; il permet d'afficher les contenus codés en HTML selon les charactéristiques visuelles souhaitées, qu'il s'agisse d'alignement, de couleur, de typographie ou de forme.
+
+Les règles inscrites dans un fichier .css doivent se référer aux éléments, classes ou attributs préalablement codés au document HTML du projet.
+
+Voici une règle CSS qui se réfère à la balise de titre `<h1>` du document HTMl, qui prescrit au contenu un affichage en police de texte Tahoma, aligné au centre et de couleur vert forêt :
 
 ```CSS
 h1 {
-    color: forestgreen; 
+    font-family: tahoma;
+    color: forestgreen;
+    text-align: center;
 }
 ```
 
 #### JavaScript 
 
-JavaScript permet l'ajout optionnel de fonctions supplémentaires bénéfiques aux utilisateurs, comme des contrôles de navigation, des fonctions de recherche ou encore la mise en évidence (signet) de certains passages, par exemple.
+JavaScript permet l'ajout optionnel de fonctions supplémentaires bénéfiques aux utilisateurs, comme des contrôles de navigation, des fonctions de recherche ou encore la mise en évidence (stabilo, signet) de certains passages, par exemple.
 
 > **Ressources HTML, CSS et JavaScript**
 > 
@@ -175,7 +203,7 @@ JavaScript permet l'ajout optionnel de fonctions supplémentaires bénéfiques a
 
 ## Protocole [Git](https://git-scm.com) et plateforme [GitHub](https://github.com)
 
-Le protocole Git est un système de versionnage qui permet de suivre l'évolution d'un projet en détail, en plus d'y faciliter la collaboration.
+Le protocole Git est un système de versionnage qui permet de suivre l'évolution d'un projet en détail à travers le temps, en plus de faciliter la collaboration et la fusion des contributions.
 
 La plateforme GitHub sert de point d'ancrage à cette collaboration, en permettant de voir la branche principale d'un projet (*master*), les problèmes soulevés et les versions en cours.
 

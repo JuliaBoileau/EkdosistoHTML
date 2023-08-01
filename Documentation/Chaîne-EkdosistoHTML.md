@@ -106,7 +106,7 @@ Contrairement à la DTD, une ODD est un document externe aux contraintes du stan
 
 Sur TEI Publisher, l'ODD permet d'encoder les éléments structurants de l'édition, tels que la disposition des colones, l'affichage de l'appareil critique, etc., ou encore, d'appliquer des emphases ou des couleurs sémantiquements significatives au texte. 
 
-Bien qu'une ODD soit d'ordinaire plus complexe à composer, le modèle et l'interface visuelle proposée par TEI Publisher facilitent grandement sa prise en charge.
+Bien qu'une ODD soit d'ordinaire plus complexe à composer, le modèle et l'interface visuelle proposés par TEI Publisher facilitent grandement sa prise en charge.
 
 > - [Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?view=div&odd=docbook&id=behaviours-available#odd-customization-details) ODD sur la plateforme TEI Publisher
 > - [Documentation](https://tei-c.org/guidelines/customization/getting-started-with-p5-odds/) ODD sur le site du consortium TEI
@@ -118,7 +118,7 @@ XPath est un langage de requête (Query) utilisé pour naviguer dans les documen
 Bien que non obligatoire, ce langage peut être très utile pour cibler des éléments dans le modèle ODD. Par exemple, on pourrait cibler les éléments `<div lang="he">`, soit les divisions au contenu hébreu, afin d'aligner le texte qu'ils contiennent à droite. Le chemin XPath serait le suivant :
 
 ```XML
-//div[@lang='hebreu']
+//div[@lang='he']
 ```
 
 > **Ressources XPath**

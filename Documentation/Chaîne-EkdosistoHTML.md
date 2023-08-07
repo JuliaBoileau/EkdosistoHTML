@@ -95,6 +95,7 @@ TEI Publisher est une application [eXist-db](http://exist-db.org/exist/apps/home
 > - Exemple : [Van Gogh Letters](https://teipublisher.com/exist/apps/vangogh/index.html)
 > - [Version d'essai](https://teipublisher.com/exist/apps/tei-publisher/index.html)
 > - [Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook&view=div) TEI Publisher
+> - [Article] premiers pas (https://digitalintellectuals.hypotheses.org/3912)
 > - **[Tutoriels](https://www.youtube.com/watch?v=QuWrfAS2SWM&list=PLx8WACGMjM7mmlJXUW-SdEKw9pEBNMzfW) TEI Publisher, sur la [chaîne Youtube](https://www.youtube.com/@e-editiones8339) de l'organisme [e-editiones](https://www.e-editiones.org)**
 > - [Tutoriels additionnels](https://www.youtube.com/@wolfgangmm) par Wolfgang Meier
 

@@ -25,7 +25,17 @@ Charger son document XML-TEI automatiquement converti en HTML, baliser le conten
 
 ### Fonctionnement
 
-Charger les dossiers XML-TEI (en local ou en ligne), visualiser les versions, appliquer une feuille html.xslt (recommandé), intégrer les annotations et métadonnées, personnaliser le rendu grâce à une feuille CSS, possibilité d'ajouts JavaScript au besoin, exporter les résultats pour un partage web statique. 
+Après une rapide inscription sur la plateforme de [v-machine.org](http://v-machine.org), un fichier .zip à télécharger fournit tous les documents nécessaires à l'installation de l'outil sur un ordinateur local. 
+
+Une fois l'outil installé, les documents TEI xml de l'édition prévue doivent d'abord être balisés selon les exigences de la plateforme, décrites dans la documentation. Sans surprise, c'est dans ces documents que doivent être intégrés les métadonnées et l'appareil critique, incluant les témoins, les anotations, les notes et les commentaires, ainsi que tous médias pertinents - facsimilés, autres images, audio ou vidéo.  
+
+Une feuille .xsl fournie par la plateforme peut ensuite être modifiée - au choix - et appliquée au XML afin de moduler le rendu web de l'édition. Bien que la majorité des navigateurs peuvent interpréter un fichier XML sans schéma .xsl, il est recommandé d'en fournir un, qu'il soit simple ou augmenté, afin de contrôler et d'uniformiser cette interprétation.
+
+Une feuille CSS et un document JavaScript peuvent également être intégrés au document XML afin de modifier respectivement le rendu graphique et les fonctionnalités du rendu web produit. 
+
+Une fois le rendu satisfaisant, cet ensemble de fichiers peut être déployé de manière indépendante grâce au module VM5. 
+
+> Voir la [documentation](http://v-machine.org/documentation/) sur [v-machine.org](http://v-machine.org). 
 
 ### Avantages
 
@@ -42,7 +52,6 @@ Charger les dossiers XML-TEI (en local ou en ligne), visualiser les versions, ap
 - Fonctionne uniquement sur mac OS ou PC
 
 ### Demo
-
 [The Pearl](http://v-machine.org/samples/pearl.html)
 
 ## TEI Publisher

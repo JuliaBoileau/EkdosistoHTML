@@ -25,7 +25,7 @@ Charger son document XML-TEI automatiquement converti en HTML, baliser le conten
 
 ### Fonctionnement
 
-Après une rapide inscription sur la plateforme de [v-machine.org](http://v-machine.org), un fichier .zip à télécharger fournit tous les documents nécessaires à l'installation de l'outil sur un ordinateur local. 
+Après une rapide inscription sur la plateforme de [v-machine.org](http://v-machine.org), un fichier .zip à télécharger fournit tous les documents nécessaires à l'installation de l'outil sur un poste local. 
 
 Une fois l'outil installé, les documents TEI xml de l'édition prévue doivent d'abord être balisés selon les exigences de la plateforme, décrites dans la documentation. Sans surprise, c'est dans ces documents que doivent être intégrés les métadonnées et l'appareil critique, incluant les témoins, les anotations, les notes et les commentaires, ainsi que tous médias pertinents - facsimilés, autres images, audio ou vidéo.  
 
@@ -47,7 +47,6 @@ Une fois le rendu satisfaisant, cet ensemble de fichiers peut être déployé de
 ### Limitations
 
 - Fonctionnalités limitées : axé davantage sur la comparaison que sur le balisage et l'annotation
-- Pérennité potentiellement compromise par les améliorations portées aux versions de l'outil
 - Très peu de documentation et de ressources externes, aucun tutoriel diponible
 - Fonctionne uniquement sur mac OS ou PC
 

@@ -35,5 +35,5 @@ Contient le demo HTML produit grâce aux feuilles de style XSLT de Versioning Ma
 ## Collaborateurs
 
 - Éditrice : [@GuadaGD](https://github.com/guadagd), Guadalupe Gonzalez Dieguez, professeure agrégée à l'Institut d'études religieuses de l'Université de Montréal. 
-- Superviseure : [@MathildeVrst], Mathilde Verstraete, candidate au doctorat en humanités numériques à l’Université de Montréal.
+- Superviseure : [@MathildeVrst](https://github.com/MathildeVrst), Mathilde Verstraete, candidate au doctorat en humanités numériques à l’Université de Montréal.
 - Superviseur : Marcello Vitali-Rosati, professeur titulaire au département des littératures de langue française de l'Université de Montréal et titulaire de la Chaire de recherche du Canada sur les écritures numériques.
